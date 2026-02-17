@@ -62,12 +62,12 @@
                 <span class="desired-cert">Sec+ (in progress)</span> -->
             </div>
             <br>
-            <p class="subtitle">IT Administration and Cybersecurity student at Central Washington University.
-                I build virtual labs to break, fix, and master the operational realities of enterprise IT.</p>
+            <p class="subtitle">IT Administration student at Central Washington University.</p>
+            <p class="subtitle">Dog dad. Music nerd. Into systems, servers, and quirky cars.</p>
         </section>
 
         <section class="latest-project">
-            <h2>Featured Projects</h2>
+            <h2>Featured Project</h2>
             <div class="project-card featured">
                 <img src="assets/projects/joecorp/ad1.png" alt="Description" class="project-image">
                 <div class="project-content">
@@ -76,15 +76,66 @@
                     <a href="projects/activedirectory/ad1.html" class="btn-primary">View Project</a>
                 </div>
             </div>
-            <br>
-            <div class="project-card featured">
-                <img src="assets/projects/proxmoxserver/proxmox.jpg" alt="Description" class="project-image">
-                <div class="project-content">
-                    <h3>Remote Proxmox Server</h3>
-                    <p>Frustration turns to inspiration in this remote hardware deployment project.</p>
-                    <a href="projects/proxmoxserver.html" class="btn-primary">View Project</a>
+        </section>
+        <section class="hero">
+            <h1>About Me</h1>
+            <style>
+                .polaroid-gallery {
+                    display: flex;
+                    justify-content: center;
+                    gap: 2rem;
+                    padding: 2rem 1rem;
+                    flex-wrap: wrap;
+                }
+
+                .polaroid {
+                    background: #ffffff;
+                    padding: 12px 12px 45px 12px;
+                    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                }
+
+                .polaroid:nth-child(odd) {
+                    transform: rotate(-2deg);
+                }
+
+                .polaroid:nth-child(even) {
+                    transform: rotate(2deg);
+                }
+
+                .polaroid img {
+                    width: 220px;
+                    height: 220px;
+                    object-fit: cover;
+                    display: block;
+                }
+            </style>
+
+            <div class="polaroid-gallery">
+                <div class="polaroid">
+                    <img src="assets/about/hopper.jpg" alt="Hopper">
+                    <p style="text-align: center; margin-top: 10px; font-family: inherit;">Hopper</p>
                 </div>
-            </div>
+                <div class="polaroid">
+                    <img src="assets/about/fiero.jpg" alt="Pontiac Fiero">
+                    <p style="text-align: center; margin-top: 10px; font-family: inherit;">Pontiac Fiero</p>
+                </div>
+                <div class="polaroid">
+                    <img src="assets/about/poppy.jpg" alt="Poppy">
+                    <p style="text-align: center; margin-top: 10px; font-family: inherit;">Poppy</p>
+                </div>
+
+
+                <p class="subtitle">I’m an IT Administration student at Central Washington University with a strong
+                    interest in systems administration. Whether I'm
+                    deploying an Active Directory forest in my homelab or shoving a supercharged drivetrain into the
+                    back of
+                    a Pontiac Fiero, I'm at my best when I'm learning how complex systems operate from a hands-on
+                    perspective.
+                </p>
+                <p class="subtitle">When I'm not at a desk, I’m usually hiking in the Cascades, listening to music, or
+                    hanging out with my two Labs, Poppy and Hopper.
+                </p>
         </section>
     </main>
 
