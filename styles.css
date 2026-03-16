@@ -133,6 +133,8 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -154,6 +156,9 @@ main {
 
 .project-content {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -166,6 +171,12 @@ main {
     color: #6e6e73;
     margin-bottom: 1.5rem;
     line-height: 1.6;
+    flex-grow: 1;
+}
+
+.project-content .btn-primary,
+.project-content .btn-secondary {
+    align-self: flex-start;
 }
 
 /* Projects Grid */
